@@ -1,4 +1,4 @@
-FROM circleci/php:7.2-node-browsers
+FROM circleci/php:7.2
 MAINTAINER senbazuru
 
 RUN deps='\
