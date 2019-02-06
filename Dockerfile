@@ -17,5 +17,6 @@ RUN deps='\
      && sudo gem install bundler hub --no-document \
      && sudo rm -rf /var/lib/apt/lists/* \
      && sudo docker-php-ext-install pdo_pgsql \
+     && sudo composer global require hirak/prestissimo \
      && composer global require hirak/prestissimo
 
