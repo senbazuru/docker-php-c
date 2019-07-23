@@ -1,4 +1,4 @@
-FROM circleci/php:7.2
+FROM circleci/php:7.3
 MAINTAINER senbazuru
 
 RUN deps='\
