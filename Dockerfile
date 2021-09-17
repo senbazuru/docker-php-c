@@ -1,6 +1,8 @@
 FROM circleci/php:7.3
 MAINTAINER senbazuru
 
+VOLUME /var/lib/docker
+
 RUN deps='\
          ruby \
          postgresql-client \
