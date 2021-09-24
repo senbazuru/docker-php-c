@@ -9,6 +9,7 @@ RUN deps='\
          libpng-dev \
          nasm \
          nodejs \
+         npm \
          ' \
      && set -x \
      && sudo mkdir -p /usr/share/man/man7/ \
