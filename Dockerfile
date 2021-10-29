@@ -1,5 +1,6 @@
 FROM circleci/php:7.3
-MAINTAINER senbazuru
+
+VOLUME /var/lib/docker
 
 RUN deps='\
          ruby \
@@ -8,6 +9,7 @@ RUN deps='\
          libpng-dev \
          nasm \
          nodejs \
+         npm \
          ' \
      && set -x \
      && sudo mkdir -p /usr/share/man/man7/ \
