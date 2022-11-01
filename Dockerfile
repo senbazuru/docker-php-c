@@ -1,4 +1,4 @@
-FROM circleci/php:7.3
+FROM cimg/php:8.1.12
 
 VOLUME /var/lib/docker
 
