@@ -14,7 +14,7 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v2
       - name: Push to GitHub Container Registry
-        uses: docker/build-push-action@v1
+        uses: docker/build-push-action@v3
         with:
           username: senbot
           password: ${{ secrets.SENBOT_CR_PAT }}
